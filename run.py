@@ -21,7 +21,7 @@ def get_sales_data():
     by commas. The loop will repeatedly request data, until it is valid.
     """
     while True:
-        print("Please enter sales data from the last market.")
+        print("Please enter which roast you would like.")
         print("Data should be seven numbers, separated by commas.")
         print("Example: 10,20,30,40,50,60,70\n")
 
@@ -65,6 +65,14 @@ def update_sales_worksheet(data):
     print("Sales worksheet updated successfully.\n")
 
 
-data = get_sales_data()
-sales_data = [int(num) for num in data]
-update_sales_worksheet(sales_data)
+
+def main():
+    """
+    Run Program functions
+    """
+    data = get_sales_data()
+    sales_data = [int(num) for num in data]
+    update_sales_worksheet(sales_data)
+
+print("Sunday Carvery Roast Ordering Station")
+main()
