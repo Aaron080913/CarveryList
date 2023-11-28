@@ -89,14 +89,13 @@ def get_last_5_Sunday_sales():
     collects the last 5 sundays worth of data and returns this as a list.
     """
     sales = SHEET.worksheet("sales")
-    
+
     columns = []
     for ind in range(1, 8):
         column = sales.col_values(ind)
         columns.append(column[-5:])
-
-
     return columns
+
 
 def calculate_stock_data(data):
     """
@@ -112,6 +111,7 @@ def calculate_stock_data(data):
         new_stock_data.append(round(stock_num))
 
     return new_stock_data
+    
 
 def main():
     """
