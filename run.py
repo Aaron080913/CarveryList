@@ -24,8 +24,8 @@ def get_sales_data():
         print("Please enter which roast you would like.")
         print("Data should be seven numbers, separated by commas.")
         print("Each of the seven numbers are associated to a type of roast.")
-        print("1st - Roast Beef, 2nd - Roast Lamb, 3rd - Roast Pork, 4th - Roast Chicken")
-        print("5th - Roast Gammon, 6th - Nut Roast, 7th - Roast Turkey")
+        print("1st-Roast Beef 2nd-Roast Lamb 3rd-Roast Pork 4th-Roast Chicken")
+        print("5th-Roast Gammon 6th-Nut Roast 7th-Roast Turkey")
         print("Example: 10,20,30,40,50,60,70\n")
 
         order_str = input("Enter your data here:\n")
