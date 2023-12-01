@@ -4,7 +4,7 @@ Carvery Ordering Station is a python terminal Data analyser, which runs in the c
 
 Users have to enter their Sunday Carvery orders into the terminal so that the kitchen is able to make the orders and so that they can keep a running average of how many different roasts they will need for the next coming week. and this is seen in a seperate worksheet file.
 
-![Responsice Mockup](https://github.com/aaron080913/CarveryList/assets/images/Am_I_Responsive_Carvery.jpeg)
+![Responsice Mockup](https://github.com/Aaron080913/CarveryList/blob/main/assets/images/Am_I_Responsive_Carvery.jpeg)
 
 ## How to use
 
