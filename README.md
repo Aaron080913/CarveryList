@@ -58,12 +58,12 @@ The user has to input what type of roast that they would like to order by fillin
 
 I have tested this project by doing the following:
 
-Passed the code through a PEP8 Python Validator, to find only one issue being a blank line at the end of the file which is A known issue with the validator.
+- Passed the code through a PEP8 Python Validator, to find only one issue being a blank line at the end of the file which is A known issue with the validator.
 
 ![pep_8](https://github.com/Aaron080913/CarveryList/blob/main/assets/images/PEP8.jpeg)
 
-invalid inputs - not allowed to input less/more then 7 intergers, or to have strings where intergers ar expected.
-Tested in local terminal and the code institute Herokus terminal.
+- invalid inputs - not allowed to input less/more then 7 intergers, or to have strings where intergers ar expected.
+- Tested in local terminal and the code institute Herokus terminal.
 
 ## Deployment
 
